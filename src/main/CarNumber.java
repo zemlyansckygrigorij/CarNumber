@@ -3,9 +3,9 @@ package main;
 import java.util.ArrayList;
 import  java.lang.StringBuilder;
 public class CarNumber{
-    ArrayList<String> list = new ArrayList<String>();
-    String[] arrLetter = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z"};//25 el
-    StringBuilder sb = new StringBuilder();
+    private ArrayList<String> list = new ArrayList<String>();
+    private String[] arrLetter = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z"};//25 el
+    private StringBuilder sb = new StringBuilder();
 
     public  CarNumber(){
         setList();
